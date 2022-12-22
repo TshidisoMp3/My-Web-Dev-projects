@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Caculator app using HTML, CSS and Javascript </title>
+<link rel="stylesheet" href="styles.css"> 
+</head>
+
+
+<body>
+<table class="calculator" >
+    <tr>
+        <td colspan="3"> <input class="display-box" type="text" id="result" disable /> </td>
+        <!-- clearScreen() fuction clear all variables-->
+        <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+    </tr>
+    <tr>
+        <!-- display() funtion shows the value of clicked button -->
+        <td> <input type="button" value="1" onclick="display('1')" /> </td>
+        <td> <input type="button" value="2" onclick="dispaly('2')" /> </td>
+        <td> <input type="button" value="3" onclick="dispaly('3')" /> </td>    
+        <td> <input type="button" value="/" onclick="dispaly('/')" /> </td>
+    </tr>
+    <tr>
+        <td> <input type="button" value="4" onclick="dispaly('4')" /> </td>
+        <td> <input type="button" value="5" onclick="dispaly('5')" /> </td>
+        <td> <input type="button" value="6" onclick="dispaly('6')" /> </td>
+        <td> <input type="button" value="-" onclick="dispaly('-')" /> </td>
+    </tr>
+    <tr>
+        <td> <input type="button" value="7" onclick="dispaly('7')" /> </td>
+        <td> <input type="button" value="8" onclick="dispaly('8')" /> </td>
+        <td> <input type="button" value="9" onclick="dispaly('9')" /> </td>
+        <td> <input type="button" value="+" onclick="dispaly('+')" /> </td>
+    </tr>
+    <tr>
+        <td> <input type="button" value="." onclick="dispaly('.')" /> </td>
+        <td> <input type="button" value="0" onclick="dispaly('0')" /> </td>
+        <!-- calculate() fuction evaluates the mathematical expression -->
+        <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+        <td> <input type="button" value="*" onclick="dispaly('*')" /> </td>
+    </tr>
+    <script type="text/javascript" src="script.js"></script>
+
+</table>
+</body>
+</html>
