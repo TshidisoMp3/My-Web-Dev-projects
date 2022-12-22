@@ -32,3 +32,11 @@ input:active[type=button] {
 body{
     background-color: gray;
 }
+
+p{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: bold;
+    padding: 10px;
+}
