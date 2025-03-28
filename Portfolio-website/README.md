@@ -1,14 +1,14 @@
 #  Personal Portfolio Website
 
-## Description
+### Description
 A simple portfolio website built using HTML. CSS and JavaScript
 
-## Features
+### Features
 1. About me section
 2. Project Section
 3. Contact Section
 
-# Technologies Used
+### Technologies Used
 - HTML 
 - CSS
 - JavaScript
